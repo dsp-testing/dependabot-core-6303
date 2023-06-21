@@ -78,11 +78,12 @@ GEM
     activejob (6.1.7)
       activesupport (= 6.1.7)
       globalid (>= 0.3.6)
-    activemerchant (1.123.0)
+    activemerchant (1.131.0)
       activesupport (>= 4.2)
       builder (>= 2.1.2, < 4.0.0)
       i18n (>= 0.6.9)
       nokogiri (~> 1.4)
+      rexml (~> 3.2.5)
     activemodel (6.1.7)
       activesupport (= 6.1.7)
     activerecord (6.1.7)
@@ -198,7 +199,7 @@ GEM
     combine_pdf (1.0.22)
       matrix
       ruby-rc4 (>= 0.1.5)
-    concurrent-ruby (1.2.0)
+    concurrent-ruby (1.2.2)
     connection_pool (2.3.0)
     crack (0.4.5)
       rexml
@@ -386,7 +387,7 @@ GEM
     mini_portile2 (2.8.1)
     mini_racer (0.6.3)
       libv8-node (~> 16.10.0.0)
-    minitest (5.17.0)
+    minitest (5.18.1)
     monetize (1.12.0)
       money (~> 6.12)
     money (6.16.0)
@@ -399,7 +400,7 @@ GEM
     net-smtp (0.3.2)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.13.10)
+    nokogiri (1.14.5)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     oauth2 (1.4.11)
@@ -457,7 +458,7 @@ GEM
     puma (6.0.2)
       nio4r (~> 2.0)
     raabro (1.4.0)
-    racc (1.6.1)
+    racc (1.7.1)
     rack (2.2.6.2)
     rack-mini-profiler (2.3.4)
       rack (>= 1.2.0)
@@ -728,7 +729,7 @@ GEM
     xml-simple (1.1.8)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.6.6)
+    zeitwerk (2.6.8)
 
 PLATFORMS
   ruby
